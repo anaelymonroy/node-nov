@@ -15,19 +15,41 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
       - run: npm ci
-      - run: npm test
-
-  publish-npm:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - run: npm run prod --if-present
+      - name: SSH CLEAN FOLDER
+        uses: appleboy/ssh-action@v0.1.5
+         with:
+          host: ${{ secrets.SSH_HOST_DEV }}
+          port: ${{ secrets.SSH_PORT }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /home/opc/dx-app-prod
+            rm -rf dist
+            touch rc.log
+      - name: SCP DEPLOY
+        uses: appleboy/scp-action@master
         with:
-          node-version: 16
-          registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          host: ${{ secrets.SSH_HOST_DEV }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          port: ${{ secrets.SSH_PORT }}
+          source: "./dist/"
+          target: ${{ secrets.SERVER_PATH_DEPLOY }}
+
+      - name: DOCKER DEPLOY
+        uses: appleboy/ssh-action@v0.1.5
+        with:
+          host: ${{ secrets.SSH_HOST_DEV }}
+          port: ${{ secrets.SSH_PORT }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /home/opc/dx-app-prod
+            sudo docker-compose down
+            sudo docker-compose up -d --build
