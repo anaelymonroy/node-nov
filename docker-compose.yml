@@ -1,0 +1,13 @@
+version: "3.1"
+services: 
+  app: 
+    build: ./Dockerfile
+    container_name: proyecto-prueba
+    volumes:
+      - .:/usr/node
+      - /usr/node/node-modules
+    command: node ./src/index.js
+    ports: 
+      - "3000:3000"
+    
+

@@ -1,0 +1,10 @@
+FROM node:14.15.5
+COPY ["package-lock.json", "package.json","/usr/node"]
+WORKDIR /usr/node
+RUN npm install 
+COPY [".","/usr/node"]
+EXPOSE 3000
+cmd ["node","./src/index.js"]
+
+
+
