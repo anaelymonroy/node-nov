@@ -6,8 +6,8 @@ services:
     volumes:
       - .:/usr/node
       - /usr/node/node-modules
-    command: node ./src/index.js
+    command: npm run dev
     ports: 
-      - "3000:3000"
+      - "4400:3000"
     
 
