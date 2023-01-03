@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T20:16:07.218Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ICRgFXLAJIXRJp4yBvXu" version="14.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-03T20:21:06.090Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6hUyVc0Qan6nWKmfNfMb" version="14.9.2" type="github" pages="3">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,11 +215,8 @@
         <mxCell id="GIIj63hYkjVCBkptQ0mo-20" value="Reglas de validaciones para asignaciones, se puede reasignar o regresar o aprobar" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-3">
           <mxGeometry x="256.5" y="360" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GIIj63hYkjVCBkptQ0mo-21" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-2">
-          <mxGeometry x="480" y="470" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JcPhjMOsx9352MyIc93k-0" value="&lt;div style=&quot;text-align: left&quot;&gt;Managing legal entities&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-1">
-          <mxGeometry x="580" y="130" width="190" height="930" as="geometry" />
+        <mxCell id="JcPhjMOsx9352MyIc93k-0" value="&lt;div style=&quot;text-align: left&quot;&gt;Managing legal entities&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-2">
+          <mxGeometry x="410" y="40" width="190" height="930" as="geometry" />
         </mxCell>
         <mxCell id="JcPhjMOsx9352MyIc93k-1" value="Crear y configurar una legal entities,&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="30" y="50" width="130" height="50" as="geometry" />
@@ -230,11 +227,14 @@
         <mxCell id="JcPhjMOsx9352MyIc93k-3" value="Ir a Manage Legal Address para definirla y luego configurarla para la entiti legal creada en el paso anterior" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="33.5" y="200" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JcPhjMOsx9352MyIc93k-4" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+        <mxCell id="JcPhjMOsx9352MyIc93k-4" value="Nota: Minimo debe exitir un empleado legal ya que es el que se encargara de la nomina, seguro social e impuestos" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="32.5" y="280" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JcPhjMOsx9352MyIc93k-5" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="32.5" y="360" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIIj63hYkjVCBkptQ0mo-21" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+          <mxGeometry x="32.5" y="425" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
