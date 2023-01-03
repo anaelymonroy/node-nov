@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T20:04:00.876Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="W-OemkjOJigRVv9TtYu1" version="14.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-03T20:16:07.218Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ICRgFXLAJIXRJp4yBvXu" version="14.9.2" type="github" pages="3">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,43 +200,40 @@
             <mxPoint x="290" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GIIj63hYkjVCBkptQ0mo-13" value="" style="swimlane;html=1;startSize=20;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-2">
-          <mxGeometry x="250" y="40" width="190" height="930" as="geometry" />
+        <mxCell id="GIIj63hYkjVCBkptQ0mo-16" value="Según el país, carga el idioma, y luego el tipo de idioma, verifica si existe la persona duplicado." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-3">
+          <mxGeometry x="254" y="120" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GIIj63hYkjVCBkptQ0mo-16" value="Según el país, carga el idioma, y luego el tipo de idioma, verifica si existe la persona duplicado." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-13">
-          <mxGeometry x="30" y="120" width="125" height="50" as="geometry" />
+        <mxCell id="GIIj63hYkjVCBkptQ0mo-18" value="Workforce Structures, define puestos de forma jerarquicca" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-3">
+          <mxGeometry x="256.5" y="200" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GIIj63hYkjVCBkptQ0mo-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GIIj63hYkjVCBkptQ0mo-13" source="GIIj63hYkjVCBkptQ0mo-18" target="GIIj63hYkjVCBkptQ0mo-20">
+        <mxCell id="k1gDz6G05LBgBpCBAgrb-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GIIj63hYkjVCBkptQ0mo-3" source="GIIj63hYkjVCBkptQ0mo-19" target="GIIj63hYkjVCBkptQ0mo-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GIIj63hYkjVCBkptQ0mo-18" value="Workforce Structures, define puestos de forma jerarquicca" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-13">
-          <mxGeometry x="32.5" y="200" width="125" height="50" as="geometry" />
+        <mxCell id="GIIj63hYkjVCBkptQ0mo-19" value="Generar asiganciones para una persona con fecha futura" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-3">
+          <mxGeometry x="256.5" y="280" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GIIj63hYkjVCBkptQ0mo-19" value="Generar asiganciones para una persona con fecha futura" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-13">
-          <mxGeometry x="32.5" y="280" width="125" height="50" as="geometry" />
+        <mxCell id="GIIj63hYkjVCBkptQ0mo-20" value="Reglas de validaciones para asignaciones, se puede reasignar o regresar o aprobar" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-3">
+          <mxGeometry x="256.5" y="360" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GIIj63hYkjVCBkptQ0mo-20" value="Reglas de validaciones para asignaciones, se puede reasignar o regresar o aprobar" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-13">
-          <mxGeometry x="32.5" y="360" width="125" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GIIj63hYkjVCBkptQ0mo-21" value="Se puede descargar la estructura que se a creado para tener una mejor visibilidad." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-2">
+        <mxCell id="GIIj63hYkjVCBkptQ0mo-21" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-2">
           <mxGeometry x="480" y="470" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JcPhjMOsx9352MyIc93k-0" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-1">
+        <mxCell id="JcPhjMOsx9352MyIc93k-0" value="&lt;div style=&quot;text-align: left&quot;&gt;Managing legal entities&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="GIIj63hYkjVCBkptQ0mo-1">
           <mxGeometry x="580" y="130" width="190" height="930" as="geometry" />
         </mxCell>
-        <mxCell id="JcPhjMOsx9352MyIc93k-1" value="se usa para completar la empresa, la entidad legal, la división, la unidad comercial" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+        <mxCell id="JcPhjMOsx9352MyIc93k-1" value="Crear y configurar una legal entities,&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="30" y="50" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JcPhjMOsx9352MyIc93k-2" value="completar el nombre de su empresa, sus entidades legales, unidades de negocio, se puede hacer desde&amp;nbsp;&amp;nbsp;Cargador de datos de HCM para cargar cualquier objeto compatible" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+        <mxCell id="JcPhjMOsx9352MyIc93k-2" value="Indica que se usara como empleador legal" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="30" y="120" width="125" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="JcPhjMOsx9352MyIc93k-3" value="Cree organizaciones" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+        <mxCell id="JcPhjMOsx9352MyIc93k-3" value="Ir a Manage Legal Address para definirla y luego configurarla para la entiti legal creada en el paso anterior" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="33.5" y="200" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JcPhjMOsx9352MyIc93k-4" value="establezca estructuras empresariales" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+        <mxCell id="JcPhjMOsx9352MyIc93k-4" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="32.5" y="280" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JcPhjMOsx9352MyIc93k-5" value="Segmento de campo felxibles, se puede utilizar para cualquier tipo de objeto" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+        <mxCell id="JcPhjMOsx9352MyIc93k-5" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="32.5" y="360" width="125" height="50" as="geometry" />
         </mxCell>
       </root>
