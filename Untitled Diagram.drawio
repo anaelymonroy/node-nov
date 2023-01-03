@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T20:21:06.090Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6hUyVc0Qan6nWKmfNfMb" version="14.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-03T20:30:31.016Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="v8E5RkGC-4Fok_o5OMFS" version="14.9.2" type="github" pages="3">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -230,11 +230,14 @@
         <mxCell id="JcPhjMOsx9352MyIc93k-4" value="Nota: Minimo debe exitir un empleado legal ya que es el que se encargara de la nomina, seguro social e impuestos" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="32.5" y="280" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JcPhjMOsx9352MyIc93k-5" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+        <mxCell id="JcPhjMOsx9352MyIc93k-5" value="posee activos de la empresa, registra ventas y paga impuestos, realiza compras, incurre en gastos" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
           <mxGeometry x="32.5" y="360" width="125" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GIIj63hYkjVCBkptQ0mo-21" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
-          <mxGeometry x="32.5" y="425" width="120" height="60" as="geometry" />
+        <mxCell id="GIIj63hYkjVCBkptQ0mo-21" value="Una vez que hayamos definido la entidad legal y hayamos dicho que es un empleador legal, debemos continuar y definirla en Administrar información de HCM de la entidad legal." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+          <mxGeometry x="32.5" y="425" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="k1gDz6G05LBgBpCBAgrb-15" value="&lt;font style=&quot;font-size: 10px&quot;&gt;Por lo tanto, los elementos de ingresos, elementos de deducción, elementos de impuestos, no se pueden compartir entre países.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JcPhjMOsx9352MyIc93k-0">
+          <mxGeometry x="30" y="535" width="126" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
