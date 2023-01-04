@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T14:53:48.264Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_Piv6CdJDX5dTF76cwLp" version="20.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-04T15:03:22.307Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="HdFgXztIGILFc1idyfZA" version="20.8.1" type="github" pages="5">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -388,7 +388,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Page 5" id="kbicHAk7CWaj4DCqyRw0">
-    <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="laFfdDC3G6zmbOoYlJj8-0" />
         <mxCell id="laFfdDC3G6zmbOoYlJj8-1" parent="laFfdDC3G6zmbOoYlJj8-0" />
@@ -459,20 +459,23 @@
         <mxCell id="FLoOi9HU6GN52jDZLJc8-2" value="Organization Structures" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="laFfdDC3G6zmbOoYlJj8-11" vertex="1">
           <mxGeometry x="15" y="266" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="laFfdDC3G6zmbOoYlJj8-24" value="Manage Division" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="laFfdDC3G6zmbOoYlJj8-2" vertex="1">
-          <mxGeometry x="480" y="150" width="140" height="70" as="geometry" />
+        <mxCell id="ICtwLla60B3c73wn0Xwo-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laFfdDC3G6zmbOoYlJj8-2" source="laFfdDC3G6zmbOoYlJj8-25" target="ICtwLla60B3c73wn0Xwo-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="laFfdDC3G6zmbOoYlJj8-25" value="Manage Locations" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="laFfdDC3G6zmbOoYlJj8-2" vertex="1">
           <mxGeometry x="480" y="80" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="laFfdDC3G6zmbOoYlJj8-33" value="&lt;div style=&quot;text-align: justify&quot;&gt;Setup up locations and Organizations&lt;/div&gt;" style="swimlane;html=1;startSize=20;" parent="laFfdDC3G6zmbOoYlJj8-2" vertex="1">
-          <mxGeometry x="460" y="30" width="370" height="1011" as="geometry" />
+          <mxGeometry x="460" y="30" width="370" height="930" as="geometry" />
         </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-1" value="Una división es una subdivisión orientada al negocio o al producto que se utiliza en HCM para definir la jerarquía de la organización de gestión mediante el uso de la estructura organizativa genérica;Si crea divisiones, debe crear un árbol organizativo para mostrar la relación entre la unidad de negocio, la entidad legal de la división y el departamento para que el trabajador quede vinculado a una división." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
           <mxGeometry x="174.5" y="111" width="177" height="99" as="geometry" />
         </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-2" value="ubicaciones donde se realizan negocios, incluida la ubicación física de las estructuras de la fuerza laboral y las ubicaciones físicas de trabajo de los trabajadores" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
           <mxGeometry x="193" y="31" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laFfdDC3G6zmbOoYlJj8-33" source="laFfdDC3G6zmbOoYlJj8-23" target="ICtwLla60B3c73wn0Xwo-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="laFfdDC3G6zmbOoYlJj8-23" value="Manage Departament" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="laFfdDC3G6zmbOoYlJj8-33" vertex="1">
           <mxGeometry x="20" y="221" width="140" height="59" as="geometry" />
@@ -483,14 +486,32 @@
         <mxCell id="ICtwLla60B3c73wn0Xwo-8" value="&amp;nbsp; &amp;nbsp;La unidad organizativa asignada al empleado." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
           <mxGeometry x="193" y="220" width="140" height="61" as="geometry" />
         </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laFfdDC3G6zmbOoYlJj8-33" source="ICtwLla60B3c73wn0Xwo-9" target="ICtwLla60B3c73wn0Xwo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-9" value="Manage Reporting Establishmets" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
           <mxGeometry x="20" y="306.5" width="140" height="59" as="geometry" />
         </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-10" value="son un tipo de árbol que se usa con la seguridad de los datos, determina esa organización, a qué organizaciones puede acceder un usuario para mantener/seleccionar información a nivel de empleado. Esa es una de las razones para usar árboles organizativos." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
           <mxGeometry x="201.5" y="391" width="140" height="89" as="geometry" />
         </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laFfdDC3G6zmbOoYlJj8-33" source="ICtwLla60B3c73wn0Xwo-11" target="ICtwLla60B3c73wn0Xwo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-11" value="Managme Organitazional trees" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
           <mxGeometry x="28.5" y="396.5" width="140" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-13" value="HCM Tree Overview" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
+          <mxGeometry x="28.5" y="491" width="140" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="laFfdDC3G6zmbOoYlJj8-33" source="laFfdDC3G6zmbOoYlJj8-24" target="ICtwLla60B3c73wn0Xwo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laFfdDC3G6zmbOoYlJj8-24" value="Manage Division" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="laFfdDC3G6zmbOoYlJj8-33" vertex="1">
+          <mxGeometry x="20" y="125.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-20" value="Representan la estructura organizacional en una jerarquía;&lt;br&gt;Los árboles lo ayudarán a determinar una relación padre-hijo entre entidades. Entonces, para utilizar árboles, crea el árbol, luego crea una versión del árbol, agrega todos sus nodos al árbol, y los nodos se basan en el tipo de árbol que ha definido. Entonces, si es un árbol de departamentos, los nodos son departamentos individuales. Si se trata de un árbol organizativo, los nodos pueden ser entidades legales, divisiones, unidades comerciales, departamento" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
+          <mxGeometry x="201.5" y="491" width="158.5" height="179" as="geometry" />
         </mxCell>
         <mxCell id="laFfdDC3G6zmbOoYlJj8-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="laFfdDC3G6zmbOoYlJj8-1" edge="1">
           <mxGeometry relative="1" as="geometry">
