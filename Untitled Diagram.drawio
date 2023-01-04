@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T14:35:43.970Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="i87exry5t-Ykybt6tEZ0" version="20.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-04T14:48:31.142Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ki54oABLCdvhKdtSb8sj" version="20.8.1" type="github" pages="5">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -468,7 +468,7 @@
         <mxCell id="laFfdDC3G6zmbOoYlJj8-33" value="&lt;div style=&quot;text-align: justify&quot;&gt;Setup up locations and Organizations&lt;/div&gt;" style="swimlane;html=1;startSize=20;" parent="laFfdDC3G6zmbOoYlJj8-2" vertex="1">
           <mxGeometry x="460" y="30" width="370" height="1011" as="geometry" />
         </mxCell>
-        <mxCell id="ICtwLla60B3c73wn0Xwo-1" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
+        <mxCell id="ICtwLla60B3c73wn0Xwo-1" value="Una división es una subdivisión orientada al negocio o al producto que se utiliza en HCM para definir la jerarquía de la organización de gestión mediante el uso de la estructura organizativa genérica." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
           <mxGeometry x="183" y="121" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-2" value="ubicaciones donde se realizan negocios, incluida la ubicación física de las estructuras de la fuerza laboral y las ubicaciones físicas de trabajo de los trabajadores" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-33">
