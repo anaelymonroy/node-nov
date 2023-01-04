@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T15:51:46.600Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6mvb6eK-FR0-753-2ATn" version="20.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-04T16:06:11.388Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="3fxJXXV978ETg6tCDOpT" version="20.8.1" type="github" pages="5">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -679,6 +679,61 @@
           <mxGeometry x="45" y="670" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-127" value="Activar el arbol creado&lt;br&gt;1. Pagina principal de management tree&lt;br&gt;2. Actions&lt;br&gt;3.Active&lt;br&gt;4. Online Audit&lt;br&gt;5.Ok&lt;br&gt;6.Done" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry x="45" y="810" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-132" value="&lt;font face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 255);&quot;&gt;Construction an Organization Tree&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-1">
+          <mxGeometry x="1807" y="110" width="270" height="930" as="geometry">
+            <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-132" source="ICtwLla60B3c73wn0Xwo-134" target="ICtwLla60B3c73wn0Xwo-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-134" value="Setup and Maintenance" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-132">
+          <mxGeometry x="43" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-132" source="ICtwLla60B3c73wn0Xwo-136" target="ICtwLla60B3c73wn0Xwo-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-136" value="Workforce deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-132">
+          <mxGeometry x="43" y="270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-132" source="ICtwLla60B3c73wn0Xwo-138" target="ICtwLla60B3c73wn0Xwo-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-138" value="Work Structures" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-132">
+          <mxGeometry x="43" y="395" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-132" source="ICtwLla60B3c73wn0Xwo-140" target="ICtwLla60B3c73wn0Xwo-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-140" value="Management Organization Tree&lt;br&gt;1. Create&lt;br&gt;2. Llenar los campos&lt;br&gt;3.Next&lt;br&gt;4.Next&lt;br&gt;3.Submit" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-132">
+          <mxGeometry x="45" y="560" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-132" source="ICtwLla60B3c73wn0Xwo-143" target="ICtwLla60B3c73wn0Xwo-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-143" value="Iniciar sessión como Implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-132">
+          <mxGeometry x="43" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-132" source="ICtwLla60B3c73wn0Xwo-145" target="ICtwLla60B3c73wn0Xwo-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-145" value="All Task&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-132">
+          <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-132" source="ICtwLla60B3c73wn0Xwo-147" target="ICtwLla60B3c73wn0Xwo-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-147" value="Regresar a la pantalla de mangament Organzation Tree&lt;br&gt;1. En la flecha desplegable, elegir Create tree version&lt;br&gt;2. Llenar los campos&lt;br&gt;3.Next&lt;br&gt;4. Para agregar un nodo le damos en signo + de la tabla y podemos buscar el/los nodos que deseamos agregar&lt;br&gt;5. Next&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-132">
+          <mxGeometry x="45" y="670" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-148" value="Activar el arbol creado&lt;br&gt;1. Pagina principal de management tree&lt;br&gt;2. Actions&lt;br&gt;3.Active&lt;br&gt;4. Online Audit&lt;br&gt;5.Ok&lt;br&gt;6.Done" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-132">
           <mxGeometry x="45" y="810" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
