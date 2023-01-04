@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T20:10:59.598Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="OGZoBtVg00NnyYo0cEcA" version="20.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-04T20:16:20.364Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="tghf8MIkaCzKQRJhJfwn" version="20.8.1" type="github" pages="6">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1139,8 +1139,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fzOCWC59HlrVc3b_sRhX-68" value="&lt;font face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 255);&quot;&gt;Construction an Organization Tree&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-41">
-          <mxGeometry x="710" y="30" width="270" height="930" as="geometry">
+        <mxCell id="fzOCWC59HlrVc3b_sRhX-68" value="&lt;font face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 255);&quot;&gt;Creating a calendar event&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-41">
+          <mxGeometry x="370" y="20" width="270" height="930" as="geometry">
             <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1159,13 +1159,10 @@
         <mxCell id="fzOCWC59HlrVc3b_sRhX-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fzOCWC59HlrVc3b_sRhX-68" source="fzOCWC59HlrVc3b_sRhX-74" target="fzOCWC59HlrVc3b_sRhX-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fzOCWC59HlrVc3b_sRhX-74" value="Work Structures" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-68">
+        <mxCell id="fzOCWC59HlrVc3b_sRhX-74" value="Work Information" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-68">
           <mxGeometry x="43" y="395" width="160" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="fzOCWC59HlrVc3b_sRhX-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fzOCWC59HlrVc3b_sRhX-68" source="fzOCWC59HlrVc3b_sRhX-76" target="fzOCWC59HlrVc3b_sRhX-82">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fzOCWC59HlrVc3b_sRhX-76" value="Management Organization Tree&lt;br&gt;1. Create&lt;br&gt;2. Llenar los campos&lt;br&gt;3.Next&lt;br&gt;4.Next&lt;br&gt;3.Submit" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-68">
+        <mxCell id="fzOCWC59HlrVc3b_sRhX-76" value="Management Calendar event&lt;br&gt;1. Create&lt;br&gt;2. Llenar los campos para el dia festivo&lt;br&gt;3.Se puede asociar una jeraquia para la organizacion&lt;br&gt;4.Submit" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-68">
           <mxGeometry x="45" y="560" width="160" height="65" as="geometry" />
         </mxCell>
         <mxCell id="fzOCWC59HlrVc3b_sRhX-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="fzOCWC59HlrVc3b_sRhX-68">
@@ -1184,9 +1181,6 @@
         </mxCell>
         <mxCell id="fzOCWC59HlrVc3b_sRhX-81" value="All Task&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-68">
           <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="fzOCWC59HlrVc3b_sRhX-82" value="Configure Actions&lt;br&gt;1. Add +&lt;br&gt;2. Llenar campos&lt;br&gt;3. Luego Associate&lt;br&gt;4.Buscar Reason&lt;br&gt;5. Submit" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-68">
-          <mxGeometry x="45" y="670" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="XeYN0N_57cZ_e8-p1K0h-0" value="&lt;div style=&quot;text-align: justify&quot;&gt;Examine Lookups&lt;/div&gt;" style="swimlane;html=1;startSize=20;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-41">
           <mxGeometry y="20" width="370" height="930" as="geometry" />
@@ -1267,7 +1261,7 @@
         <mxCell id="XeYN0N_57cZ_e8-p1K0h-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-32" target="XeYN0N_57cZ_e8-p1K0h-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XeYN0N_57cZ_e8-p1K0h-32" value="Iniciar sessión como Implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-32" value="Iniciar sessión como&amp;nbsp; cualquier tipo de usuario" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
           <mxGeometry x="200.5" y="90" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XeYN0N_57cZ_e8-p1K0h-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-33" target="XeYN0N_57cZ_e8-p1K0h-31">
@@ -1275,6 +1269,49 @@
         </mxCell>
         <mxCell id="XeYN0N_57cZ_e8-p1K0h-33" value="All Task&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
           <mxGeometry x="200.5" y="540" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-41" value="&lt;font face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 255);&quot;&gt;Creating a calendar event&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-41">
+          <mxGeometry x="640" y="20" width="270" height="930" as="geometry">
+            <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-41" source="XeYN0N_57cZ_e8-p1K0h-43" target="XeYN0N_57cZ_e8-p1K0h-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-43" value="Setup and Maintenance" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-41">
+          <mxGeometry x="43" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-41" source="XeYN0N_57cZ_e8-p1K0h-45" target="XeYN0N_57cZ_e8-p1K0h-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-45" value="Workforce deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-41">
+          <mxGeometry x="43" y="270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-41" source="XeYN0N_57cZ_e8-p1K0h-47" target="XeYN0N_57cZ_e8-p1K0h-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-47" value="Work Information" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-41">
+          <mxGeometry x="43" y="395" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-48" value="Management Calendar event&lt;br&gt;1. Create&lt;br&gt;2. Llenar los campos para el dia festivo&lt;br&gt;3.Se puede asociar una jeraquia para la organizacion&lt;br&gt;4.Submit" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-41">
+          <mxGeometry x="45" y="560" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-41" source="XeYN0N_57cZ_e8-p1K0h-51" target="XeYN0N_57cZ_e8-p1K0h-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-51" value="Iniciar sessión como Implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-41">
+          <mxGeometry x="43" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-41" source="XeYN0N_57cZ_e8-p1K0h-53" target="XeYN0N_57cZ_e8-p1K0h-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-53" value="All Task&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-41">
+          <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fzOCWC59HlrVc3b_sRhX-83" value="&lt;font face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 255);&quot;&gt;Creating on Acction Reason and action&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-1">
           <mxGeometry x="1807" y="110" width="270" height="930" as="geometry">
