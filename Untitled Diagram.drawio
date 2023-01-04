@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T15:43:13.592Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6teTbJR92WCnJcBUB52C" version="20.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-04T15:51:46.600Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="6mvb6eK-FR0-753-2ATn" version="20.8.1" type="github" pages="5">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -388,7 +388,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Page 5" id="kbicHAk7CWaj4DCqyRw0">
-    <mxGraphModel dx="2550" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="laFfdDC3G6zmbOoYlJj8-0" />
         <mxCell id="laFfdDC3G6zmbOoYlJj8-1" parent="laFfdDC3G6zmbOoYlJj8-0" />
@@ -522,7 +522,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-63" value="" style="swimlane;strokeWidth=0;verticalAlign=top;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-1">
-          <mxGeometry x="827" y="80" width="833" height="1041" as="geometry" />
+          <mxGeometry x="827" y="80" width="980" height="1041" as="geometry" />
         </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-64" value="&lt;font color=&quot;#333333&quot; face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Create a Location&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-63">
           <mxGeometry y="30" width="270" height="930" as="geometry">
@@ -625,6 +625,61 @@
               <mxPoint x="473" y="572" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-113" value="&lt;font face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 255);&quot;&gt;Construction an Organization Tree&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-63">
+          <mxGeometry x="710" y="30" width="270" height="930" as="geometry">
+            <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-113" source="ICtwLla60B3c73wn0Xwo-114" target="ICtwLla60B3c73wn0Xwo-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-114" value="Setup and Maintenance" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry x="43" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-113" source="ICtwLla60B3c73wn0Xwo-116" target="ICtwLla60B3c73wn0Xwo-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-116" value="Workforce deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry x="43" y="270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-113" source="ICtwLla60B3c73wn0Xwo-118" target="ICtwLla60B3c73wn0Xwo-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-118" value="Work Structures" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry x="43" y="395" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-113" source="ICtwLla60B3c73wn0Xwo-119" target="ICtwLla60B3c73wn0Xwo-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-119" value="Management Organization Tree&lt;br&gt;1. Create&lt;br&gt;2. Llenar los campos&lt;br&gt;3.Next&lt;br&gt;4.Next&lt;br&gt;3.Submit" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry x="45" y="560" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-113" source="ICtwLla60B3c73wn0Xwo-122" target="ICtwLla60B3c73wn0Xwo-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-122" value="Iniciar sessión como Implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry x="43" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-113" source="ICtwLla60B3c73wn0Xwo-124" target="ICtwLla60B3c73wn0Xwo-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-124" value="All Task&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-113" source="ICtwLla60B3c73wn0Xwo-125" target="ICtwLla60B3c73wn0Xwo-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-125" value="Regresar a la pantalla de mangament Organzation Tree&lt;br&gt;1. En la flecha desplegable, elegir Create tree version&lt;br&gt;2. Llenar los campos&lt;br&gt;3.Next&lt;br&gt;4. Para agregar un nodo le damos en signo + de la tabla y podemos buscar el/los nodos que deseamos agregar&lt;br&gt;5. Next&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry x="45" y="670" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-127" value="Activar el arbol creado&lt;br&gt;1. Pagina principal de management tree&lt;br&gt;2. Actions&lt;br&gt;3.Active&lt;br&gt;4. Online Audit&lt;br&gt;5.Ok&lt;br&gt;6.Done" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-113">
+          <mxGeometry x="45" y="810" width="160" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
