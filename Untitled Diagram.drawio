@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T20:04:20.904Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="C8i9zPQ0k-62_XmQNv7a" version="20.8.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-01-04T20:10:59.598Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="OGZoBtVg00NnyYo0cEcA" version="20.8.1" type="github" pages="6">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1201,23 +1201,19 @@
             <mxPoint x="160" y="336.0588235294117" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XeYN0N_57cZ_e8-p1K0h-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="168.5" y="426" as="sourcePoint" />
-            <mxPoint x="201.5" y="435.47058823529414" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="XeYN0N_57cZ_e8-p1K0h-18" value="&amp;nbsp;User lookups/ busquedas que el usuario puede modificar pero solo algunos parametros" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
           <mxGeometry x="13" y="100" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XeYN0N_57cZ_e8-p1K0h-19" value="Extensible lookups, Busquedas que el usuario genera" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
           <mxGeometry x="13" y="210" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XeYN0N_57cZ_e8-p1K0h-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-20" target="XeYN0N_57cZ_e8-p1K0h-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="XeYN0N_57cZ_e8-p1K0h-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-20" target="XeYN0N_57cZ_e8-p1K0h-18">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="193" y="45" />
+              <mxPoint x="193" y="145" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="XeYN0N_57cZ_e8-p1K0h-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-20" target="XeYN0N_57cZ_e8-p1K0h-19">
           <mxGeometry relative="1" as="geometry">
@@ -1240,6 +1236,45 @@
         </mxCell>
         <mxCell id="XeYN0N_57cZ_e8-p1K0h-21" value="&amp;nbsp;system lookups Busquedas que no pueden modificarse, si necesita apoyo hablar con soporte de oracle" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
           <mxGeometry x="13" y="300" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-27" target="XeYN0N_57cZ_e8-p1K0h-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-27" value="Como hacer la busqueda" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
+          <mxGeometry x="203" y="30" width="157" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-28" target="XeYN0N_57cZ_e8-p1K0h-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-28" value="Setup and Maintenance" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
+          <mxGeometry x="200.5" y="210" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-29" target="XeYN0N_57cZ_e8-p1K0h-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-29" value="Workforce deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
+          <mxGeometry x="200.5" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-30" target="XeYN0N_57cZ_e8-p1K0h-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-30" value="Workforce Information" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
+          <mxGeometry x="200.5" y="445" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-31" value="Management Person Lookups&lt;br&gt;1.Muestra el lsitado de consultas y selecciona una puede configurar la busqueda/ Estas busquedas dependeran del perfil y el acceso a ella" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
+          <mxGeometry x="202.5" y="610" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-32" target="XeYN0N_57cZ_e8-p1K0h-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-32" value="Iniciar sessión como Implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
+          <mxGeometry x="200.5" y="90" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="XeYN0N_57cZ_e8-p1K0h-0" source="XeYN0N_57cZ_e8-p1K0h-33" target="XeYN0N_57cZ_e8-p1K0h-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XeYN0N_57cZ_e8-p1K0h-33" value="All Task&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="XeYN0N_57cZ_e8-p1K0h-0">
+          <mxGeometry x="200.5" y="540" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fzOCWC59HlrVc3b_sRhX-83" value="&lt;font face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 255);&quot;&gt;Creating on Acction Reason and action&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-1">
           <mxGeometry x="1807" y="110" width="270" height="930" as="geometry">
