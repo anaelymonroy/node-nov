@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T16:55:01.694Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="IarU_dIUUfaf6oijn-SK" version="20.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-04T18:41:14.116Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="TRj0G9s6aV-E02tw5p6_" version="20.8.1" type="github" pages="5">
   <diagram id="FDf_Rkj1PEj-sMLVnc-U" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -884,7 +884,7 @@
           <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-201" value="Setting up annual salay basis" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-1">
-          <mxGeometry x="2887" y="110" width="270" height="930" as="geometry">
+          <mxGeometry x="2887" y="110" width="223" height="930" as="geometry">
             <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -924,6 +924,135 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ICtwLla60B3c73wn0Xwo-216" value="Salary Basis" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-201">
+          <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-219" value="Setting up annual salay basis" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-1">
+          <mxGeometry x="3110" y="110" width="223" height="930" as="geometry">
+            <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-220" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-219" source="ICtwLla60B3c73wn0Xwo-221" target="ICtwLla60B3c73wn0Xwo-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-221" value="Setup and Maintenance" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-219">
+          <mxGeometry x="43" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-219" source="ICtwLla60B3c73wn0Xwo-223" target="ICtwLla60B3c73wn0Xwo-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-223" value="Workforce deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-219">
+          <mxGeometry x="43" y="270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-224" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-219" source="ICtwLla60B3c73wn0Xwo-225" target="ICtwLla60B3c73wn0Xwo-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-225" value="Work Structures" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-219">
+          <mxGeometry x="43" y="395" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-226" value="Manage Job&lt;br&gt;1. Create +&amp;nbsp;&lt;br&gt;2. Llenar los campos , en job set seleccionara el job creado antes&lt;br&gt;3. Next&lt;br&gt;4. En esta parte descripa el job&lt;br&gt;5. En valid Grades, agrege el grado&lt;br&gt;6. Next&lt;br&gt;7. Submit&lt;br&gt;8. Done" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-219">
+          <mxGeometry x="44" y="569" width="160" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-227" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-219">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-228" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-219" source="ICtwLla60B3c73wn0Xwo-229" target="ICtwLla60B3c73wn0Xwo-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-229" value="Iniciar sessión como Implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-219">
+          <mxGeometry x="43" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-219" source="ICtwLla60B3c73wn0Xwo-231" target="ICtwLla60B3c73wn0Xwo-226">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-231" value="All Task&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-219">
+          <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-232" value="Setting up position synchronization" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-1">
+          <mxGeometry x="3333" y="110" width="223" height="930" as="geometry">
+            <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-233" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-232" source="ICtwLla60B3c73wn0Xwo-234" target="ICtwLla60B3c73wn0Xwo-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-234" value="Setup and Maintenance" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-232">
+          <mxGeometry x="43" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-235" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-232" source="ICtwLla60B3c73wn0Xwo-236" target="ICtwLla60B3c73wn0Xwo-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-236" value="Workforce deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-232">
+          <mxGeometry x="43" y="270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-237" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-232" source="ICtwLla60B3c73wn0Xwo-238" target="ICtwLla60B3c73wn0Xwo-244">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-238" value="Legal Structures" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-232">
+          <mxGeometry x="43" y="395" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-239" value="Manage Legal Enity HCM Info&lt;br&gt;1. Edit+&lt;br&gt;2. Update, cambiar la fecha y reason&amp;nbsp;&lt;br&gt;2. Luego la opción Position Synchronization&lt;br&gt;3. Opcion Enable Position Synchronization, darle Yes&lt;br&gt;4. Luego selecionar Allow Override at Assigment&lt;br&gt;5. Luego seleccionamos un Manager&lt;br&gt;6. Seleccionamos para que opciones necesitamos la sincronizacion&lt;br&gt;7. Submit&lt;br&gt;8. Done" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-232">
+          <mxGeometry x="44" y="569" width="160" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-240" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-232">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-241" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-232" source="ICtwLla60B3c73wn0Xwo-242" target="ICtwLla60B3c73wn0Xwo-234">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-242" value="Iniciar sessión como Implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-232">
+          <mxGeometry x="43" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-243" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-232" source="ICtwLla60B3c73wn0Xwo-244" target="ICtwLla60B3c73wn0Xwo-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-244" value="All Task&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-232">
+          <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-246" value="Create Position" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="laFfdDC3G6zmbOoYlJj8-1">
+          <mxGeometry x="3556" y="110" width="223" height="930" as="geometry">
+            <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-246" source="ICtwLla60B3c73wn0Xwo-248" target="ICtwLla60B3c73wn0Xwo-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-248" value="Setup and Maintenance" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-246">
+          <mxGeometry x="43" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-249" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-246" source="ICtwLla60B3c73wn0Xwo-250" target="ICtwLla60B3c73wn0Xwo-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-250" value="Workforce deployment" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-246">
+          <mxGeometry x="43" y="270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-251" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-246" source="ICtwLla60B3c73wn0Xwo-252" target="ICtwLla60B3c73wn0Xwo-258">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-252" value="Workforce Structures" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-246">
+          <mxGeometry x="43" y="395" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-253" value="Manage Positions&lt;br&gt;1.Create +&lt;br&gt;2. Llenar los campos, seleccionar la unidad de negocio, para la cual será la posición&lt;br&gt;3. Next, y llenar los campos deseados&lt;br&gt;4.next&lt;br&gt;5.Next&lt;br&gt;7. Submit&lt;br&gt;8. Done" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-246">
+          <mxGeometry x="44" y="568" width="160" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-254" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-246">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-255" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-246" source="ICtwLla60B3c73wn0Xwo-256" target="ICtwLla60B3c73wn0Xwo-248">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-256" value="Iniciar sessión como Implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-246">
+          <mxGeometry x="43" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-257" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ICtwLla60B3c73wn0Xwo-246" source="ICtwLla60B3c73wn0Xwo-258" target="ICtwLla60B3c73wn0Xwo-253">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ICtwLla60B3c73wn0Xwo-258" value="All Task&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="ICtwLla60B3c73wn0Xwo-246">
           <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
