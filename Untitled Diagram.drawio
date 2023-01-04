@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T20:48:34.101Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="QJzKFbGqVr5WjfJQaJkr" version="20.8.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-04T23:02:24.291Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="T9w9SGvGWdBfNKGTZI6t" version="20.8.1" type="github" pages="5">
   <diagram id="Q0VRE74OQqPlLbRJSBBP" name="Page-2">
     <mxGraphModel dx="933" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1488,6 +1488,92 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="925.4999999999998" y="511" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-0" value="&lt;font face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 255);&quot;&gt;Hiring an Employee&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-1">
+          <mxGeometry x="1740" y="100" width="270" height="930" as="geometry">
+            <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EhS_I-3T8xOsnPl9OPe4-0" source="EhS_I-3T8xOsnPl9OPe4-2" target="EhS_I-3T8xOsnPl9OPe4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-2" value="Hire an employee" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="EhS_I-3T8xOsnPl9OPe4-0">
+          <mxGeometry x="43" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EhS_I-3T8xOsnPl9OPe4-0" source="EhS_I-3T8xOsnPl9OPe4-4" target="EhS_I-3T8xOsnPl9OPe4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-4" value="seleccionar las opciones de información que desea agregar" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="EhS_I-3T8xOsnPl9OPe4-0">
+          <mxGeometry x="43" y="270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EhS_I-3T8xOsnPl9OPe4-0" source="EhS_I-3T8xOsnPl9OPe4-6" target="EhS_I-3T8xOsnPl9OPe4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-6" value="next" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="EhS_I-3T8xOsnPl9OPe4-0">
+          <mxGeometry x="43" y="395" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-7" value="Submit y regresar a la pagina anterior" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="EhS_I-3T8xOsnPl9OPe4-0">
+          <mxGeometry x="45" y="560" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EhS_I-3T8xOsnPl9OPe4-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EhS_I-3T8xOsnPl9OPe4-0" source="EhS_I-3T8xOsnPl9OPe4-10" target="EhS_I-3T8xOsnPl9OPe4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-10" value="Iniciar sessión no como implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="EhS_I-3T8xOsnPl9OPe4-0">
+          <mxGeometry x="43" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EhS_I-3T8xOsnPl9OPe4-0" source="EhS_I-3T8xOsnPl9OPe4-12" target="EhS_I-3T8xOsnPl9OPe4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EhS_I-3T8xOsnPl9OPe4-12" value="Rellenar los campos, de la pantalla mostrada, se debe asignar Manager" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="EhS_I-3T8xOsnPl9OPe4-0">
+          <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-0" value="&lt;font face=&quot;oraclesansregular, arial, helvetica neue, helvetica, sans-serif&quot; color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 10px; background-color: rgb(255, 255, 255);&quot;&gt;Hiring an Employee into a position&lt;/span&gt;&lt;/font&gt;" style="swimlane;html=1;startSize=20;align=left;" vertex="1" parent="fzOCWC59HlrVc3b_sRhX-1">
+          <mxGeometry x="2010" y="100" width="270" height="930" as="geometry">
+            <mxRectangle x="120" y="50" width="70" height="20" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjhBqGOPlk4ku_bh1yAK-0" source="GjhBqGOPlk4ku_bh1yAK-2" target="GjhBqGOPlk4ku_bh1yAK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-2" value="Hire an employee" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GjhBqGOPlk4ku_bh1yAK-0">
+          <mxGeometry x="43" y="160" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjhBqGOPlk4ku_bh1yAK-0" source="GjhBqGOPlk4ku_bh1yAK-4" target="GjhBqGOPlk4ku_bh1yAK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-4" value="seleccionar las opciones de información que desea agregar, inluyendo Emplment Details con Position y aceptar la sincronizacion" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GjhBqGOPlk4ku_bh1yAK-0">
+          <mxGeometry x="43" y="270" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjhBqGOPlk4ku_bh1yAK-0" source="GjhBqGOPlk4ku_bh1yAK-6" target="GjhBqGOPlk4ku_bh1yAK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-6" value="next" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GjhBqGOPlk4ku_bh1yAK-0">
+          <mxGeometry x="43" y="395" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-7" value="Submit y regresar a la pagina anterior" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GjhBqGOPlk4ku_bh1yAK-0">
+          <mxGeometry x="45" y="560" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjhBqGOPlk4ku_bh1yAK-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjhBqGOPlk4ku_bh1yAK-0" source="GjhBqGOPlk4ku_bh1yAK-10" target="GjhBqGOPlk4ku_bh1yAK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-10" value="Iniciar sessión no como Implementador" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GjhBqGOPlk4ku_bh1yAK-0">
+          <mxGeometry x="43" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GjhBqGOPlk4ku_bh1yAK-0" source="GjhBqGOPlk4ku_bh1yAK-12" target="GjhBqGOPlk4ku_bh1yAK-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GjhBqGOPlk4ku_bh1yAK-12" value="Rellenar los campos, de la pantalla mostrada, se debe asignar Manager" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="GjhBqGOPlk4ku_bh1yAK-0">
+          <mxGeometry x="43" y="490" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
